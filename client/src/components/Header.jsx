@@ -15,10 +15,10 @@ export default function Header() {
         <svg className="header-logo-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M32 4C21.5 4 13 12.5 13 23c0 14.25 19 37 19 37s19-22.75 19-37C51 12.5 42.5 4 32 4z"
-            fill="#FFFFFF"
+            fill="#ffeda8"
             fillOpacity="0.95"
           />
-          <circle cx="32" cy="22" r="8" fill="#C0392B" />
+          <circle cx="32" cy="22" r="8" fill="#003631" />
         </svg>
         <div className="header-text">
           <h1>ParkWatch AI</h1>
