@@ -125,8 +125,8 @@ export default function DispatcherPanel({ topHotspots }) {
                   <div className="dispatch-item">
                     <div>
                       <div className="dispatch-name">{hotspot.junction_name}</div>
-                      <div style={{ fontSize: '0.78rem', color: '#eae3d2', marginTop: '0.15rem' }}>
-                        Impact: <strong style={{ color: '#ffeda8' }}>{formatScore(hotspot.score)}</strong>
+                      <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', marginTop: '0.15rem' }}>
+                        Impact: <strong style={{ color: 'var(--brand-green)' }}>{formatScore(hotspot.score)}</strong>
                       </div>
                     </div>
                     <div>

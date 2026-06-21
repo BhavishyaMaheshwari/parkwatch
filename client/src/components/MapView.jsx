@@ -75,9 +75,9 @@ function HeatLayer({ points, heatWeight, maxScore, maxCount }) {
 // ---------------------------------------------------------------------------
 function scoreColor(score, maxScore) {
   const ratio = Math.min(score / maxScore, 1);
-  if (ratio > 0.66) return '#ff7a59';   // high impact orange-red
-  if (ratio > 0.33) return '#ffeda8';   // medium impact butter yellow
-  return '#1abc9c';                      // low impact tealy green
+  if (ratio > 0.66) return '#C0392B';   // crimson
+  if (ratio > 0.33) return '#E67E22';   // orange
+  return '#F39C12';                      // amber
 }
 
 function markerRadius(count, maxCount) {
@@ -163,8 +163,8 @@ export default function MapView({ hotspots, flyTo }) {
 
       <MapContainer center={center} zoom={12} className="map-container" id="leaflet-map" scrollWheelZoom={true}>
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
         <FlyToHandler flyTo={flyTo} />
