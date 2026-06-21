@@ -1,0 +1,10 @@
+{
+  "total_violations": 298450,
+  "avg_duration_minutes": 6344.3443,
+  "top_vehicle_type": "SCOOTER",
+  "top_violation_type": "WRONG PARKING",
+  "top_junction": {
+    "junction_name": "BTP051 - Safina Plaza Junction",
+    "violation_count": 15449
+  }
+}
