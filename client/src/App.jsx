@@ -4,7 +4,6 @@ import KPICards from './components/KPICards';
 import MapView from './components/MapView';
 import Timeline from './components/Timeline';
 import EnforcementTable from './components/EnforcementTable';
-import Breakdowns from './components/Breakdowns';
 import DispatcherPanel from './components/DispatcherPanel';
 
 const API_BASE = '/api';
@@ -87,14 +86,10 @@ export default function App() {
           <EnforcementTable data={topJunctions} onRowClick={handleRowClick} />
         </section>
 
-        <section className="section" id="breakdown-section">
-          <h2 className="section-title">Violation &amp; Vehicle Breakdown</h2>
-          <Breakdowns stats={stats} />
-        </section>
       </main>
 
       <footer className="app-footer">
-        <p>Powered by DBSCAN clustering + impact scoring · Data: Jan–May Police Violation Records</p>
+        <p>Data: Jan–May Police Violation Records</p>
       </footer>
     </div>
   );

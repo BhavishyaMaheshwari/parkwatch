@@ -82,7 +82,6 @@ export default function EnforcementTable({ data, onRowClick }) {
               <th>Junction</th>
               <th>Zone Type</th>
               <th>Violations</th>
-              <th>Peak Hour</th>
               {hasDominantViolation && <th>Dominant Violation</th>}
               <th>Impact Score</th>
               <th>Priority</th>
@@ -91,7 +90,7 @@ export default function EnforcementTable({ data, onRowClick }) {
           <tbody>
             {filteredData.length === 0 ? (
               <tr>
-                <td colSpan={hasDominantViolation ? 8 : 7} style={{ textAlign: 'center', padding: '2rem', color: '#6b6b6b' }}>
+                <td colSpan={hasDominantViolation ? 7 : 6} style={{ textAlign: 'center', padding: '2rem', color: '#6b6b6b' }}>
                   No hotspots found matching this classification filter.
                 </td>
               </tr>
@@ -115,7 +114,6 @@ export default function EnforcementTable({ data, onRowClick }) {
                       </span>
                     </td>
                     <td>{(row.violation_count || 0).toLocaleString('en-IN')}</td>
-                    <td>{row.peak_hour || '—'}</td>
                     {hasDominantViolation && <td>{row.dominant_violation || '—'}</td>}
                     <td style={{ fontWeight: 600 }}>{formatScore(row.score)}</td>
                     <td>

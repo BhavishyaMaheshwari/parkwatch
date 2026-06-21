@@ -38,7 +38,7 @@ export default function DispatcherPanel({ topHotspots }) {
     <div className="dispatcher-panel" id="dispatcher-panel">
       {/* AI Congestion Impact Quantifier Insights */}
       <div className="dispatch-card" id="ai-insights-card">
-        <h3>AI Congestion Insights</h3>
+        <h3>Live Congestion Highlights</h3>
         
         <div className="insight-item">
           <div className="insight-title">Targeted Shift Scheduling</div>
