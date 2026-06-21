@@ -5,6 +5,7 @@ import MapView from './components/MapView';
 import Timeline from './components/Timeline';
 import EnforcementTable from './components/EnforcementTable';
 import Breakdowns from './components/Breakdowns';
+import DispatcherPanel from './components/DispatcherPanel';
 
 const API_BASE = '/api';
 
@@ -68,6 +69,8 @@ export default function App() {
 
       <main className="dashboard">
         <KPICards stats={stats} />
+
+        <DispatcherPanel topHotspots={topJunctions} />
 
         <section className="section" id="map-section">
           <h2 className="section-title">Violation Hotspot Map</h2>

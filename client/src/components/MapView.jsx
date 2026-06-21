@@ -22,7 +22,7 @@ function FlyToHandler({ flyTo }) {
 // ---------------------------------------------------------------------------
 // Sub-component: heatmap layer using Leaflet.heat
 // ---------------------------------------------------------------------------
-function HeatLayer({ points, maxScore }) {
+function HeatLayer({ points, heatWeight, maxScore, maxCount }) {
   const map = useMap();
 
   useEffect(() => {
@@ -32,12 +32,13 @@ function HeatLayer({ points, maxScore }) {
       try {
         await import('leaflet.heat');
         if (window.L && window.L.heatLayer) {
-          // Normalize intensity to 0-1 range
-          const heatData = points.map((p) => [
-            p.lat,
-            p.lng,
-            Math.min(p.score / maxScore, 1),
-          ]);
+          // Normalize intensity to 0-1 range based on toggled weight
+          const heatData = points.map((p) => {
+            const intensity = heatWeight === 'score'
+              ? Math.min(p.score / maxScore, 1)
+              : Math.min(p.violation_count / maxCount, 1);
+            return [p.lat, p.lng, intensity];
+          });
           heatLayer = window.L.heatLayer(heatData, {
             radius: 30,
             blur: 25,
@@ -64,7 +65,7 @@ function HeatLayer({ points, maxScore }) {
         map.removeLayer(heatLayer);
       }
     };
-  }, [points, maxScore, map]);
+  }, [points, heatWeight, maxScore, maxCount, map]);
 
   return null;
 }
@@ -97,6 +98,7 @@ function formatScore(score) {
 // ---------------------------------------------------------------------------
 export default function MapView({ hotspots, flyTo }) {
   const [mode, setMode] = useState('markers'); // 'markers' | 'heatmap'
+  const [heatWeight, setHeatWeight] = useState('score'); // 'count' | 'score'
 
   // Filter out hotspots with null lat/lng
   const validHotspots = useMemo(
@@ -140,6 +142,25 @@ export default function MapView({ hotspots, flyTo }) {
         </button>
       </div>
 
+      {mode === 'heatmap' && (
+        <div className="map-sub-controls">
+          <button
+            className={`map-sub-toggle-btn ${heatWeight === 'count' ? 'active' : ''}`}
+            onClick={() => setHeatWeight('count')}
+            id="btn-heat-violations"
+          >
+            Violation Density
+          </button>
+          <button
+            className={`map-sub-toggle-btn ${heatWeight === 'score' ? 'active' : ''}`}
+            onClick={() => setHeatWeight('score')}
+            id="btn-heat-congestion"
+          >
+            Congestion Impact
+          </button>
+        </div>
+      )}
+
       <MapContainer center={center} zoom={12} className="map-container" id="leaflet-map" scrollWheelZoom={true}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -148,7 +169,14 @@ export default function MapView({ hotspots, flyTo }) {
 
         <FlyToHandler flyTo={flyTo} />
 
-        {mode === 'heatmap' && <HeatLayer points={validHotspots} maxScore={maxScore} />}
+        {mode === 'heatmap' && (
+          <HeatLayer
+            points={validHotspots}
+            heatWeight={heatWeight}
+            maxScore={maxScore}
+            maxCount={maxCount}
+          />
+        )}
 
         {mode === 'markers' &&
           validHotspots.map((h, i) => (
