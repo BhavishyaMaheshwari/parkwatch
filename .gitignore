@@ -33,3 +33,6 @@ jan to may police violation_anonymized791b166.csv
 # Build output
 client/dist/
 dist/
+.vite/
+client/.vite/
+
