@@ -1,242 +1,242 @@
 [
   {
-    "lat": 12.981212065557246,
-    "lng": 77.60869513989651,
-    "junction_name": "BTP051 - Safina Plaza Junction",
-    "score": 106279144.1296,
-    "violation_count": 15449,
-    "peak_hour": "off-peak"
-  },
-  {
-    "lat": 12.964423750642322,
-    "lng": 77.57724121294085,
+    "lat": 12.972052982693887,
+    "lng": 77.57756932240335,
     "junction_name": "BTP082 - KR Market Junction",
-    "score": 89821976.8987,
-    "violation_count": 11538,
+    "score": 685943840.8297,
+    "violation_count": 62819,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.976596713370032,
-    "lng": 77.5766021547117,
-    "junction_name": "BTP040 - Elite Junction",
-    "score": 62462600.9503,
-    "violation_count": 10718,
+    "lat": 12.981914858380884,
+    "lng": 77.60725538074855,
+    "junction_name": "BTP051 - Safina Plaza Junction",
+    "score": 290088618.8057,
+    "violation_count": 27682,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.974938996857006,
-    "lng": 77.57889570478889,
-    "junction_name": "BTP044 - Sagar Theatre Junction",
-    "score": 61399188.5426,
-    "violation_count": 10549,
-    "peak_hour": "off-peak"
-  },
-  {
-    "lat": 12.983371022821446,
-    "lng": 77.60345435130863,
-    "junction_name": "BTP211 - Central Street Junction",
-    "score": 39525519.9896,
-    "violation_count": 5388,
-    "peak_hour": "off-peak"
-  },
-  {
-    "lat": 12.979021616597574,
-    "lng": 77.57866101486218,
-    "junction_name": "BTP058 - Subbanna Junction",
-    "score": 29092620.8675,
-    "violation_count": 5189,
-    "peak_hour": "off-peak"
-  },
-  {
-    "lat": 12.998897494610551,
-    "lng": 77.54941567682629,
+    "lat": 13.00164527695182,
+    "lng": 77.55173487322529,
     "junction_name": "BTP027 - Modi Bridge Junction",
-    "score": 26417880.7317,
-    "violation_count": 4584,
+    "score": 283349898.9377,
+    "violation_count": 26105,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.979395373087677,
-    "lng": 77.5743883072681,
-    "junction_name": "BTP057 - Anand Rao Junction",
-    "score": 25787948.1003,
-    "violation_count": 3935,
+    "lat": 12.936073133000699,
+    "lng": 77.69255774695074,
+    "junction_name": "Unknown / General Area",
+    "score": 164802149.1556,
+    "violation_count": 15137,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.964396575724733,
-    "lng": 77.58316820553203,
-    "junction_name": "BTP080 - NR Road, SP Road Junction",
-    "score": 23886704.498,
-    "violation_count": 3681,
+    "lat": 13.000080503053146,
+    "lng": 77.5711790388439,
+    "junction_name": "BTP054 - Shivananda Circle",
+    "score": 102391247.6738,
+    "violation_count": 10177,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.97414419858571,
-    "lng": 77.54529421309437,
+    "lat": 13.185360925414681,
+    "lng": 77.68046486119643,
+    "junction_name": "Unknown / General Area",
+    "score": 77664618.4854,
+    "violation_count": 5040,
+    "peak_hour": "off-peak"
+  },
+  {
+    "lat": 12.974233303625283,
+    "lng": 77.54727855491417,
     "junction_name": "BTP020 - Hosahalli Metro Station",
-    "score": 21838835.7236,
-    "violation_count": 4101,
+    "score": 70848756.5841,
+    "violation_count": 9100,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.966450044406306,
-    "lng": 77.57440287238298,
-    "junction_name": "BTP083 - AS Char Street, Mysore Road",
-    "score": 20646776.0364,
-    "violation_count": 2778,
-    "peak_hour": "off-peak"
+    "lat": 13.008479727534553,
+    "lng": 77.69536786564319,
+    "junction_name": "Unknown / General Area",
+    "score": 62775797.1394,
+    "violation_count": 4220,
+    "peak_hour": "5-8pm"
   },
   {
-    "lat": 13.007811443262298,
-    "lng": 77.55465340067576,
-    "junction_name": "BTP001 - 10th Cross, Dr. Rajkumar Road",
-    "score": 20444966.6607,
-    "violation_count": 2812,
-    "peak_hour": "off-peak"
-  },
-  {
-    "lat": 12.973484256997908,
-    "lng": 77.550805919489,
-    "junction_name": "BTP070 - Cholurpalya Junction, Magadi Road",
-    "score": 18194597.484,
-    "violation_count": 2272,
-    "peak_hour": "off-peak"
-  },
-  {
-    "lat": 12.977065128575918,
-    "lng": 77.57478964140208,
-    "junction_name": "BTP045 - Danvanthri Road Junction",
-    "score": 17870091.3504,
-    "violation_count": 3181,
-    "peak_hour": "off-peak"
-  },
-  {
-    "lat": 13.008974449496067,
-    "lng": 77.54920543394422,
-    "junction_name": "BTP023 - Mahalaxmi Layout Entrance",
-    "score": 14286326.1198,
-    "violation_count": 1807,
-    "peak_hour": "off-peak"
-  },
-  {
-    "lat": 12.981175736986302,
-    "lng": 77.59845689202544,
-    "junction_name": "BTP042 - Minsk Square Junction (CTO)",
-    "score": 13891420.7482,
-    "violation_count": 2044,
-    "peak_hour": "off-peak"
-  },
-  {
-    "lat": 12.965246043934675,
-    "lng": 77.53784328202111,
+    "lat": 12.967191694046178,
+    "lng": 77.53788796931329,
     "junction_name": "BTP016 - 5th Main Road, RPC Layout",
-    "score": 12415202.6131,
-    "violation_count": 2474,
+    "score": 38483377.9631,
+    "violation_count": 4763,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.993087912687146,
-    "lng": 77.58818366254266,
-    "junction_name": "BTP032 - Windsor Circle",
-    "score": 11992408.5747,
-    "violation_count": 2749,
+    "lat": 12.996302404431576,
+    "lng": 77.66861822222518,
+    "junction_name": "Unknown / General Area",
+    "score": 38318626.3352,
+    "violation_count": 2022,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.974620575358045,
-    "lng": 77.54751794417267,
-    "junction_name": "BTP069 - MC Circle",
-    "score": 11033993.1907,
-    "violation_count": 1075,
+    "lat": 12.889708566240323,
+    "lng": 77.6392826471294,
+    "junction_name": "Unknown / General Area",
+    "score": 34327568.299,
+    "violation_count": 1588,
+    "peak_hour": "5-8pm"
+  },
+  {
+    "lat": 13.000340996354678,
+    "lng": 77.67691596853525,
+    "junction_name": "Unknown / General Area",
+    "score": 34301292.144,
+    "violation_count": 2100,
+    "peak_hour": "5-8pm"
+  },
+  {
+    "lat": 12.963124402617096,
+    "lng": 77.71716748402378,
+    "junction_name": "Unknown / General Area",
+    "score": 33680092.0087,
+    "violation_count": 2830,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.943901209259398,
-    "lng": 77.57143116315802,
-    "junction_name": "BTP108 - Tagore Park Junction",
-    "score": 10962012.3378,
-    "violation_count": 1801,
+    "lat": 12.973404557556126,
+    "lng": 77.61883548695866,
+    "junction_name": "BTP143 - ASC Junction",
+    "score": 28836590.2161,
+    "violation_count": 3101,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.993694996696341,
-    "lng": 77.55379199356938,
-    "junction_name": "BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road",
-    "score": 10859708.9111,
-    "violation_count": 1208,
+    "lat": 12.969107081895947,
+    "lng": 77.64343938565946,
+    "junction_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "score": 25860294.8674,
+    "violation_count": 2571,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.976960576691845,
-    "lng": 77.57075523407478,
-    "junction_name": "BTP048 - Shanthala Junction",
-    "score": 10490482.7389,
-    "violation_count": 1593,
+    "lat": 12.996783466797012,
+    "lng": 77.61236571937434,
+    "junction_name": "Unknown / General Area",
+    "score": 25302263.0977,
+    "violation_count": 2813,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.973430411726868,
-    "lng": 77.58124380880751,
-    "junction_name": "BTP038 - Mysore Bank Junction",
-    "score": 10076151.1556,
-    "violation_count": 2021,
+    "lat": 12.841874693166899,
+    "lng": 77.64589305336389,
+    "junction_name": "Unknown / General Area",
+    "score": 24699990.2745,
+    "violation_count": 2054,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.959562748076925,
-    "lng": 77.57661357181698,
-    "junction_name": "BTP104 - Medical College Circle",
-    "score": 9938655.891,
-    "violation_count": 1508,
+    "lat": 12.92887805840164,
+    "lng": 77.58327346532786,
+    "junction_name": "BTP189 - New Diagonal Road, Jayanagar",
+    "score": 23841509.6273,
+    "violation_count": 2440,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.99900715064247,
-    "lng": 77.5508516759733,
-    "junction_name": "BTP182 - 19th Main Junction, Rajajinagar",
-    "score": 9902219.2996,
-    "violation_count": 1390,
+    "lat": 13.03557090978777,
+    "lng": 77.58906459071945,
+    "junction_name": "Unknown / General Area",
+    "score": 23780923.3883,
+    "violation_count": 3488,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.935621750629496,
-    "lng": 77.61497794019785,
-    "junction_name": "BTP135 - UCO Bank Junction",
-    "score": 9717540.3074,
-    "violation_count": 1112,
+    "lat": 12.926978887437599,
+    "lng": 77.67872086373335,
+    "junction_name": "Unknown / General Area",
+    "score": 23065673.8167,
+    "violation_count": 2046,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.971139927984627,
-    "lng": 77.57557195804273,
-    "junction_name": "BTP043 - Upparpet Junction",
-    "score": 9713130.8978,
-    "violation_count": 1786,
+    "lat": 12.95979122845075,
+    "lng": 77.64679612398321,
+    "junction_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "score": 22343135.4534,
+    "violation_count": 1522,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.998492417815125,
-    "lng": 77.55309264941178,
-    "junction_name": "BTP008 - Navarang Theatre",
-    "score": 9450953.4821,
-    "violation_count": 1190,
-    "peak_hour": "off-peak"
+    "lat": 12.953314672902085,
+    "lng": 77.54249118532763,
+    "junction_name": "BTP096 - Gali Anjaneya Temple",
+    "score": 20596000.0083,
+    "violation_count": 1834,
+    "peak_hour": "5-8pm"
   },
   {
-    "lat": 12.975846885138832,
-    "lng": 77.56179568138215,
+    "lat": 12.975708567488503,
+    "lng": 77.55981080764808,
     "junction_name": "BTP074 - Leprosy Hospital Junction",
-    "score": 9416852.1051,
-    "violation_count": 1047,
+    "score": 20583897.601,
+    "violation_count": 1805,
     "peak_hour": "off-peak"
   },
   {
-    "lat": 12.908069876703646,
-    "lng": 77.60081684453249,
-    "junction_name": "BTP130 - GD Mara Junction",
-    "score": 9182394.5482,
-    "violation_count": 631,
+    "lat": 12.957800263965622,
+    "lng": 77.70155970538754,
+    "junction_name": "Unknown / General Area",
+    "score": 19847636.3969,
+    "violation_count": 1853,
+    "peak_hour": "off-peak"
+  },
+  {
+    "lat": 12.972080038156358,
+    "lng": 77.71172758291999,
+    "junction_name": "Unknown / General Area",
+    "score": 19832043.4927,
+    "violation_count": 848,
+    "peak_hour": "off-peak"
+  },
+  {
+    "lat": 12.935391803828072,
+    "lng": 77.61530316098052,
+    "junction_name": "BTP135 - UCO Bank Junction",
+    "score": 19275384.1534,
+    "violation_count": 1489,
+    "peak_hour": "off-peak"
+  },
+  {
+    "lat": 12.94379607322103,
+    "lng": 77.57143473277279,
+    "junction_name": "BTP108 - Tagore Park Junction",
+    "score": 18588350.2987,
+    "violation_count": 2448,
+    "peak_hour": "off-peak"
+  },
+  {
+    "lat": 12.995596423590783,
+    "lng": 77.6956694072234,
+    "junction_name": "Unknown / General Area",
+    "score": 16758893.5929,
+    "violation_count": 1478,
+    "peak_hour": "off-peak"
+  },
+  {
+    "lat": 13.071001930867348,
+    "lng": 77.58844660548556,
+    "junction_name": "Unknown / General Area",
+    "score": 16453583.8227,
+    "violation_count": 6189,
+    "peak_hour": "off-peak"
+  },
+  {
+    "lat": 12.981749042911458,
+    "lng": 77.5585489492666,
+    "junction_name": "BTP010 - Rajajinagar Entrance",
+    "score": 13758231.8465,
+    "violation_count": 1434,
     "peak_hour": "off-peak"
   }
 ]

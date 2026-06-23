@@ -4,7 +4,105 @@
   "top_vehicle_type": "SCOOTER",
   "top_violation_type": "WRONG PARKING",
   "top_junction": {
-    "junction_name": "BTP051 - Safina Plaza Junction",
-    "violation_count": 15449
-  }
+    "junction_name": "BTP082 - KR Market Junction",
+    "violation_count": 62819
+  },
+  "hourly_distribution": [
+    {
+      "hour": 0,
+      "count": 21762
+    },
+    {
+      "hour": 1,
+      "count": 17155
+    },
+    {
+      "hour": 2,
+      "count": 24770
+    },
+    {
+      "hour": 3,
+      "count": 25709
+    },
+    {
+      "hour": 4,
+      "count": 29102
+    },
+    {
+      "hour": 5,
+      "count": 34085
+    },
+    {
+      "hour": 6,
+      "count": 26890
+    },
+    {
+      "hour": 7,
+      "count": 14608
+    },
+    {
+      "hour": 8,
+      "count": 8556
+    },
+    {
+      "hour": 9,
+      "count": 3145
+    },
+    {
+      "hour": 10,
+      "count": 518
+    },
+    {
+      "hour": 11,
+      "count": 577
+    },
+    {
+      "hour": 12,
+      "count": 219
+    },
+    {
+      "hour": 13,
+      "count": 56
+    },
+    {
+      "hour": 14,
+      "count": 16
+    },
+    {
+      "hour": 15,
+      "count": 66
+    },
+    {
+      "hour": 16,
+      "count": 416
+    },
+    {
+      "hour": 17,
+      "count": 818
+    },
+    {
+      "hour": 18,
+      "count": 1971
+    },
+    {
+      "hour": 19,
+      "count": 10713
+    },
+    {
+      "hour": 20,
+      "count": 11834
+    },
+    {
+      "hour": 21,
+      "count": 19763
+    },
+    {
+      "hour": 22,
+      "count": 22840
+    },
+    {
+      "hour": 23,
+      "count": 22861
+    }
+  ]
 }
